@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <link href="main.css" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <title>Формы</title>
+
+    <style>
+        h1 {
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1 style="color: blue">Моя первая HTML-форма</h1>
+
+<form method="post">
+
+    <label for="email" class="email-label">Email:</label>
+    <input id="email" name="email" type="email" required><br>
+
+    <label for="password" class="password-label">Пароль:</label>
+    <input id="password" name="password" type="password" tabindex="1"><br>
+
+    <input type="number" min="10" max="100">
+
+    <table>
+        <input type="checkbox">
+        Подписаться на рассылку
+
+    </table><br>
+
+    <input type="color">
+
+    <input type="date" value="2019-03-01" tabindex="2"><br>
+
+    <input type="file"><br>
+
+    Хотите получить подарок:<br>
+
+    <label>
+
+        <input type="radio" name="gift"> да
+
+    </label><br>
+
+    <label>
+
+        <input type="radio" name="gift"> нет
+
+    </label><br>
+
+    <labellabel>
+
+        <input type="radio" name="gift"> не знаю
+
+    </labellabel><br>
+
+    <input name="text"></textarea><br>
+    <br>
+    <select name="city">
+        <option selected>Dnepr</option>
+        <option>Kiev</option>
+
+
+        <input type="submit">
+
+        <input type="reset" tabindex="3">
+
+        <input type="image" src="=placehold.it/150*30">
+
+        <button>text <em>italic</em></button>
+
+</form>
+
+
+</body>
+
+</html>

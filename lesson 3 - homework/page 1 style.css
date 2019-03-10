@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     color: red;
 }
@@ -29,3 +30,36 @@ li {
 #blck {
     color: black;
 }
+=======
+h1 {
+    color: red;
+}
+em {
+    color: blue;
+}
+ul {
+    color: red;
+}
+h2 {
+    color: green;
+}
+#red1 {
+    color: red;
+}
+p {
+    color: black;
+}
+li {
+    color: brown;
+}
+#kursiv {
+    font-style: italic;
+    color: red;
+}
+#script {
+    color: blue;
+}
+#blck {
+    color: black;
+}
+>>>>>>> 1 commit
